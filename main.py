@@ -78,6 +78,7 @@ while True:
         with open(arquivo_path, "w") as arquivo_infos:
 
             arquivo_infos.write(f"METROS QUADRADOS: {metros_quadrados:.2f}m² | VALOR TOTAL: R${valor_total:.2f}\n")
+            arquivo_infos.write(f"VALOR DO METRO QUADRADO: R${valor_metro_quadrado:.2f}\n")
             arquivo_infos.write(f"LARGURA: {largura}m | ALTURA: {altura}m\n\n")
 
             arquivo_infos.write(f"DESCRIÇÃO DO TRABALHO: {descricao}\n")
