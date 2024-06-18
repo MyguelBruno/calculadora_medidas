@@ -3,6 +3,9 @@ from dataclasses import dataclass
 from pathlib import Path
 import PySimpleGUI as sg
 
+
+# teste
+
 #INTERFACE
 layout = [
     [sg.Text("CALCULADORA DE MEDIDAS")],
